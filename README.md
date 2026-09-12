@@ -14,19 +14,16 @@ I am building **0→AGI** — a public architectural experiment toward long-live
 
 A brief roadmap:
 
-Memory  
-↓  
-Persistent Work  
-↓  
-Reconstructable Work  
-↓  
-?  
-↓  
-Autonomy  
-↓  
-?  
-↓  
-AGI
+flowchart LR
+    M["01<br/><b>Memory</b>"]
+    W["02<br/><b>Persistent Work</b>"]
+    R["03<br/><b>Reconstructable Work</b>"]
+    X1["?"]
+    A["<b>Autonomy</b>"]
+    X2["?"]
+    G["<b>AGI</b>"]
+
+    M --> W --> R --> X1 --> A --> X2 --> G
 
 I do not know exactly how many architectural layers are still missing. I only have a rough roadmap, which I will unfold along the way. I am building and testing these layers one by one.
 
