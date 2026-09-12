@@ -15,7 +15,7 @@ I am building **0→AGI** — a public architectural experiment toward long-live
 A brief roadmap:
 
 ```mermaid
-flowchart LR
+flowchart TD
     M["01<br/><b>Memory</b>"]
     W["02<br/><b>Persistent Work</b>"]
     R["03<br/><b>Reconstructable Work</b>"]
